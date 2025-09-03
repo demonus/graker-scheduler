@@ -2,7 +2,7 @@ services:
   - type: worker
     name: graker-scheduler
     env: node
-    plan: starter
+    plan: free
     buildCommand: npm install
     startCommand: npm start
     envVars:
