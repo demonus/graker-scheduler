@@ -1,0 +1,33 @@
+{
+  "name": "graker-scheduler",
+  "version": "1.0.0",
+  "description": "Graker Scheduler Service for Grade Updates",
+  "main": "scheduler.js",
+  "scripts": {
+    "start": "node scheduler.js",
+    "dev": "nodemon scheduler.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.38.0",
+    "axios": "^1.6.0",
+    "xml2js": "^0.6.2",
+    "crypto": "^1.0.1",
+    "node-cron": "^3.0.3",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "education",
+    "grades",
+    "edupoint",
+    "scheduler",
+    "cron"
+  ],
+  "author": "Graker Team",
+  "license": "MIT"
+}
