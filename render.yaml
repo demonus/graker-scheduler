@@ -9,9 +9,7 @@ services:
       - key: NODE_ENV
         value: production
       - key: SUPABASE_URL
-        fromDatabase:
-          name: graker-db
-          property: connectionString
+        sync: false
       - key: SUPABASE_SERVICE_ROLE_KEY
         sync: false
       - key: SCHEDULER_KEY
